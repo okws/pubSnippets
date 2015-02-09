@@ -1,13 +1,9 @@
 <snippet>
 	<content>
-		<![CDATA[
-			Components.setDefaultParams(params, {
-				${1:paramName} : ["${2:default}", "${3:option}"${4:, "*"}] //${5:description}
-			});
-		]]>
+		<![CDATA[util.join_not_null(" ",["${1:String1}", ${2:String2}])]]>
 	</content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>setDefaultParams</tabTrigger>
+	<tabTrigger>join_not_null</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
